@@ -199,7 +199,6 @@ def main():
         bombs = [bomb for bomb in bombs if bomb is not None]
 
 
-
         key_lst = pg.key.get_pressed()
         bird.update(key_lst, screen)
         if beam is not None:
