@@ -170,6 +170,10 @@ def main():
                 if beam.rct.colliderect(bomb.rct):  #練習2爆弾とビームの衝突判定
                     beam = None
                     bomb = None
+                    bird.change_img(6, screen)  #練習3こうかとん喜び実装
+                    pg.display.update()
+                    time.sleep(1)
+
 
 
         key_lst = pg.key.get_pressed()
